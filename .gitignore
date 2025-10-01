@@ -2,3 +2,5 @@ assets/images/New folder/*
 
 # Ignore all files in the assets/images/New folder directory
 assets/images/New folder/*
+.gitignore
+# Ignore all .log files
