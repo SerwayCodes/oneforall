@@ -4,3 +4,4 @@ assets/images/New folder/*
 assets/images/New folder/*
 .gitignore
 # Ignore all .log files
+meta.html
