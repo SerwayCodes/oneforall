@@ -1,0 +1,52 @@
+
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+
+      .card-hover {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .card-hover:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      }
+      .counter {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #1e40af;
+      }
+      .page {
+        display: none;
+      }
+      .active-page {
+        display: block;
+      }
+
+      /* New styles  */
+      .hero-bg {
+        background: linear-gradient(
+          135deg,
+          rgba(30, 64, 175, 0.8) 0%,
+          rgba(59, 130, 246, 0.8) 100%
+        );
+      }
+
+      .slide {
+        display: none;
+        animation: fadeIn 1.5s;
+      }
+
+      .slide.active {
+        display: block;
+      }
+
+      .impact-card:hover {
+        transform: translateY(-10px);
+        transition: transform 0.3s ease;
+      }
+
+      .btn-hover:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+      }
+    
